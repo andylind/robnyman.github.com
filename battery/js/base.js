@@ -13,6 +13,6 @@
         battery.addEventListener("levelchange", setStatus, false);
     }
     else {
-        batterySupported.innerHTML = "Battery API not supported on your device/computer";
+        batteryLevel.innerHTML = "Battery API not supported on your device/computer";
     }
 })();
