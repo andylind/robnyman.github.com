@@ -1,6 +1,6 @@
 (function () {
     var battery = navigator.battery,
-        batteryLevel = document.getElementById("battery-level"),
+        batteryLevel = document.getElementById("battery-level");
 
     if (battery) {
         function setStatus () {
